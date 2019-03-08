@@ -175,10 +175,11 @@ h1{
     width: 50%;
 }
 
-#middle-img {
+.middle-img {
     margin: 15px 30px 10px 30px;
 
-    width: 879px;
+/*    width: 879px;*/
+  text-align: center;
 }
 
 .middle-bottom {
@@ -216,3 +217,36 @@ h1{
   margin-bottom: 100px;
 }
 
+#services-top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 30px 30px 30px;
+    width: 879px;
+  
+}
+
+#services-boxes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+#services-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  width: 420px;
+}
+
+#services-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 879px;
+  
+}
