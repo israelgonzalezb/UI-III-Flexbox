@@ -83,12 +83,6 @@ header {
     justify-content: center;
 }
 
-nav {
-
-  
-    
-}
-
 .logo {
     display: inline-block;
     margin: 0 15px 0 0;
@@ -101,6 +95,19 @@ a {
     color: lightgray;
     margin: 0 32px 0 32px;
 }
+
+h1{
+    font-size: 80px;
+  }
+
+button {
+      width: 170px;
+      height: 30px;
+      background-color: white;
+      font-size: 18px
+  }
+
+/* Home page */
 
 .intro {
 
@@ -131,24 +138,6 @@ a {
 }
 
 
-h1{
-
-    /*margin-right: 116px;*/
-    /*margin-left: 80px;*/
-    font-size: 80px;
-    
-
-
-
-  }
-
-  button {
-      width: 170px;
-      height: 30px;
-      background-color: white;
-      font-size: 18px
-  }
-
 .intro-image{
     /*display: inline-block;*/
   vertical-align: middle;
@@ -175,10 +164,11 @@ h1{
     width: 50%;
 }
 
-#middle-img {
+.middle-img {
     margin: 15px 30px 10px 30px;
 
-    width: 879px;
+/*    width: 879px;*/
+  text-align: center;
 }
 
 .middle-bottom {
@@ -216,3 +206,40 @@ h1{
   margin-bottom: 100px;
 }
 
+/* Service */
+
+#services-top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 30px 30px 30px;
+    width: 879px;
+    justify-content: center;
+    
+    vertical-align: middle;
+}
+
+#services-boxes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+#services-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  width: 420px;
+}
+
+#services-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 879px;
+  
+}
